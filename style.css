@@ -2,20 +2,26 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
+
+/* First Section Style */
+
 .navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
     width: 100%;
     position: absolute;
     z-index: 1;
 }
 
 
-.logoRefresh{
-    display: flex;
-    margin: 20px;
-    align-items: center;
-}
 
+
+.resetButton{
+    width: 60px;
+}
 
 .button{
     display: flex;
@@ -71,3 +77,6 @@
     font-size: 70px;
 
 }
+
+/* Second Section */
+
