@@ -92,9 +92,18 @@
 }
 
 #whoText{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.whoText{
+    width: 80%;
+}
+#whoImage{
     /*Todo*/
 }
 
-#whoImage{
-    /*Todo*/
+.whoBox{
+    width: 500px;
+    background-color: blue;
 }
