@@ -1,12 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
+
 /* First Section Style */
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -18,12 +20,12 @@
 
 
 
-.resetButton{
+.resetButton {
     width: 60px;
     margin-right: 10px;
 }
 
-.button{
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,14 +40,15 @@
     text-decoration: none;
     font-family: 'Silkscreen', cursive;
 }
-.otherElements{
+
+.otherElements {
     display: inline;
     margin-right: 20px;
     float: right;
 }
 
 
-.image{
+.image {
     position: absolute;
     width: 100%;
     height: 600px;
@@ -57,53 +60,72 @@
 }
 
 
-.particles-js{
+.particles-js {
     width: 100%;
     position: absolute;
     height: 600px;
 }
-.text{
+
+.text {
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.swscrc{
+
+.swscrc {
 
     z-index: 1;
     color: white;
     text-shadow: 10px 10px 20px black;
     font-family: 'Silkscreen', cursive;
     font-size: 70px;
+    background-color: rgba(207, 82, 37, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 1px solid black;
+}
+
+/* Second Section-- Who are we? */
+
+.olayerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slayerContainer {
+    padding: 40px 5px 20px 5px;
+    max-width: 1000px;
 
 }
 
-/* Second Section */
-
-.tilearewe{
-    margin: 40px;
-    font-family: 'Silkscreen', cursive;
-    font-size: 40px;
+.tilearewe {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: orangered;
 }
 
-.whoContainer{
+.whoContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-#whoText{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}
-.whoText{
-    width: 80%;
-}
-#whoImage{
-    /*Todo*/
+.whoText {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
-.whoBox{
-    width: 500px;
+.blueLine {
+    margin: 20px 10px 40px 40px;
+    border-radius: 10px;
+    width: 40%;
+    height: 2px;
     background-color: blue;
 }
+
+
+/* Third Section-- What are our goals */
