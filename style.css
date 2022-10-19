@@ -4,8 +4,41 @@
     box-sizing: border-box;
 }
 
+/* Helpers */
 
+.heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: orangered;
+    margin: 20px 10px 0 10px;
+}
+.heading:hover{
+    animation: pulse;
+    animation-duration: 0.5s;
+}
+.line{
+    margin: 20px 10px 40px 40px;
+    border-radius: 10px;
+    width: 40%;
+    height: 2px;
+}
+.right{
+    margin: 20px 10px 40px 55%
+}
 
+.backBlue{
+    background-color: blue;
+}
+.backOrange{
+    background-color: orangered;
+}
+.black{
+    color: black;
+}
+.orange{
+    color: orangered;
+}
 /* First Section Style */
 
 .navbar {
@@ -86,25 +119,34 @@
     box-shadow: 1px solid black;
 }
 
+/* Midlle Section */
+
+.parallax{
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    background-image: url(./assets/second_secton_img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /* Second Section-- Who are we? */
 
 .olayerContainer {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .slayersContainer {
-    padding: 40px 5px 20px 5px;
-    max-width: 1000px;
+    margin: 20px;
+    padding: 40px 15px 20px 5px;
+    width: 1400px;
 
-}
-
-.tilearewe {
-    font-family: 'Poppins', sans-serif;
-    font-size: 42px;
-    font-weight: 700;
-    color: orangered;
 }
 
 .whoContainer {
@@ -118,13 +160,30 @@
     font-size: 20px;
 }
 
-.blueLine {
-    margin: 20px 10px 40px 40px;
-    border-radius: 10px;
-    width: 40%;
-    height: 2px;
-    background-color: blue;
-}
 
 
 /* Third Section-- What are our goals */
+.goals{
+    margin-top: 280px;
+}
+
+.goalsSection{
+    margin-left: 50px;
+}
+.go{
+    font-size: 30px;
+    font-weight: 200;
+    color: blue;
+}
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: black;
+    color: white;
+    margin-top: 10px;
+    padding: 30px;
+}
