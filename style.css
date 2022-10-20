@@ -48,6 +48,7 @@
     width: 100%;
     position: absolute;
     z-index: 1;
+    padding: 10px;
 }
 
 
@@ -125,7 +126,7 @@
     left: 0px;
     margin: 0;
     padding: 0;
-    height: 200px;
+    height: 250px;
     width: 100%;
     position: absolute;
     background-image: url(./assets/second_secton_img.jpg);
@@ -164,7 +165,7 @@
 
 /* Third Section-- What are our goals */
 .goals{
-    margin-top: 280px;
+    margin-top: 350px;
 }
 
 .goalsSection{
@@ -174,6 +175,17 @@
     font-size: 30px;
     font-weight: 200;
     color: blue;
+}
+.buildingThings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#buildingImage{
+    height: 400px;
+    display: block;
+    float: right;
 }
 /* Footer */
 
