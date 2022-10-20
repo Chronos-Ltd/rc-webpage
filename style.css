@@ -132,6 +132,7 @@
     background-image: url(./assets/second_secton_img.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 /* Second Section-- Who are we? */
@@ -146,7 +147,7 @@
 .slayersContainer {
     margin: 20px;
     padding: 40px 15px 20px 5px;
-    width: 1400px;
+    max-width: 1400px;
 
 }
 
