@@ -162,22 +162,36 @@
 /* Footer */
 
 footer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    align-content: center;
     justify-content: center;
-    align-items: center;
+    justify-items: center;
     flex-direction: column;
     height: 200px;
     background: black;
     color: white;
     margin-top: 10px;
-    padding: 30px;
 }
 
 .socialMedia{
     display: flex;
 }
 
+.headingFooter{
+    color: orangered;
+    font-family: Poppins;
+    font-size: 32px;
+}
+
+
 .addInf{
     flex-direction: column;
     margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+pre > a{
+    text-decoration: none;
+    color: white;
 }
