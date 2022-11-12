@@ -159,6 +159,15 @@
     align-items: center;
     padding: 10px;
 }
+/* Achievements Section */
+.transparentDiv{
+    /* filter: blur(4px);
+    -webkit-filter: blur(4px); */
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    z-index: 1;
+}
 
 /* Footer */
 
