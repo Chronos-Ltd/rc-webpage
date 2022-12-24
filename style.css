@@ -4,19 +4,14 @@
     box-sizing: border-box;
 }
 
-/* Helpers */
 
-.heading{
-    font-family: 'Poppins', sans-serif;
-    font-size: 42px;
-    font-weight: 700;
-    color: orangered;
-    margin: 20px 10px 0 10px;
+.navbar{
+    position: absolute;
+    width: 100%;
 }
-.heading:hover{
-    animation: pulse;
-    animation-duration: 0.5s;
-}
+
+
+/* Helpers */ 
 .line{
     margin: 20px 10px 40px 40px;
     border-radius: 10px;
@@ -26,60 +21,8 @@
 .right{
     margin: 20px 10px 40px 55%
 }
-
-.backBlue{
-    background-color: blue;
-}
-.backOrange{
-    background-color: orangered;
-}
-.black{
-    color: black;
-}
-.orange{
-    color: orangered;
-}
 /* First Section Style */
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    padding: 10px;
-}
-
-
-
-
-.resetButton {
-    width: 60px;
-    margin-right: 10px;
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: right;
-    cursor: pointer;
-    height: 40px;
-    border-radius: 50px;
-    padding: 15px;
-    background-color: rgb(5, 5, 59);
-    color: white;
-    margin-right: 30px;
-    text-decoration: none;
-    font-family: 'Silkscreen', cursive;
-}
-
-.otherElements {
-    display: inline;
-    margin-right: 20px;
-    float: right;
-}
 
 
 .image {
@@ -115,6 +58,7 @@
     font-family: 'Silkscreen', cursive;
     font-size: 70px;
     border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     box-shadow: 1px solid black;
@@ -132,6 +76,7 @@
     background-image: url(./assets/second_secton_img.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 /* Second Section-- Who are we? */
@@ -146,7 +91,7 @@
 .slayersContainer {
     margin: 20px;
     padding: 40px 15px 20px 5px;
-    width: 1400px;
+    max-width: 1400px;
 
 }
 
@@ -187,15 +132,77 @@
     display: block;
     float: right;
 }
-/* Footer */
 
-footer{
+/*Members section */
+
+.members{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.members > div{
+    margin: 30px;
+}
+
+.memberImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 5px;
+}
+.postContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+/* Achievements Section */
+.transparentDiv{
+    /* filter: blur(4px);
+    -webkit-filter: blur(4px); */
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    z-index: 1;
+}
+
+/* Footer */
+
+footer{
+    display: grid;
+    padding: 60px;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
     height: 200px;
     background: black;
     color: white;
     margin-top: 10px;
-    padding: 30px;
+}
+
+.socialMedia{
+    display: flex;
+}
+
+.headingFooter{
+    color: orangered;
+    font-family: Poppins;
+    font-size: 32px;
+}
+
+
+.addInf{
+    flex-direction: column;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+pre > a{
+    text-decoration: none;
+    color: white;
 }

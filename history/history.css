@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NavBar Begin */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    z-index: 1;
+    padding: 10px;
+}
+
+
+
+/* NavBar End */
+
+.heading{
+    display: flex;
+    justify-content: center;
+
+    margin: 20px 10px 0 10px;
+}
+
+.button{
+    border: 4px solid rgb(5,5,59);
+    background-color: white;
+    color: orangered;
+}
+
+.History{
+    background-color: rgb(5,5,59);
+    color: white;
+}
+
+.globalContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.historyContainer{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.historyBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line{
+    width: 4px;
+    height: 100px;
+}
+
+.horLine{
+    width: 100px;
+    height: 7px;
+    margin-top: 150px
+}
+
+.blue{
+    background-color: blue;
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 4px solid orangered;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.textDiv{
+    border: 4px dotted black;
+    height: 40px;
+    padding: 5px;
+    margin: 120px 20px 0 20px;
+}
+
+.Leftside{
+    margin: 200px 20px 0 20px;
+}
+
